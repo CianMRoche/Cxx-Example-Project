@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
 
     std::cout << "Root finding parameters loaded from JSON file." << std::endl;
 
-    // ----------- Get rootfinding params and find the root -----------
+    // ---------- Get rootfinding params and find the root ----------
     double root;
 
     if (method=="bisection"){
