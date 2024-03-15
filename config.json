@@ -1,0 +1,19 @@
+{
+    "bisection": {
+        "left_limit": {"value": 1.0, "description": "Left limit", "type": "double"},
+        "right_limit": {"value": 2.0, "description": "Right limit", "type": "double"},
+        "tol": {"value": 1e-6, "description": "Tolerance", "type": "double"},
+        "max_iter": {"value": 100, "description": "Max iterations", "type": "int"}
+    },
+    "newton_raphson": {
+        "x0": {"value": 1.0, "description": "Initial guess", "type": "double"},
+        "tol": {"value": 1e-6, "description": "Tolerance", "type": "double"},
+        "max_iter": {"value": 100, "description": "Max iterations", "type": "int"}
+    },
+    "secant": {
+        "x0": {"value": 1.0, "description": "Initial guess (x0)", "type": "double"},
+        "x1": {"value": 2.0, "description": "Initial guess (x1)", "type": "double"},
+        "tol": {"value": 1e-6, "description": "Tolerance", "type": "double"},
+        "max_iter": {"value": 100, "description": "Max iterations", "type": "int"}
+    }
+}
